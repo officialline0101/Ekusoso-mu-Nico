@@ -17,7 +17,7 @@
             /* 画面中央に固定 */
             transform: translateY(-50%) translateX(13px);
             /* 中央配置と右ずらし */
-            background: #4b2404;
+            background: #2c2c2c;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -104,7 +104,7 @@
         }
 
         h1 {
-            background: linear-gradient(135deg, #4b2404, #3b1c02);
+            background: linear-gradient(135deg, #2c2c2c, #2c2c2c);
             color: white;
             padding: 20px;
             border-radius: 0 15px 0px 45px;
@@ -123,7 +123,7 @@
             margin-bottom: 10px;
             padding: 3px;
             font-weight: 600;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: white;
             border-radius: 6px;
             font-size: 18px;
@@ -142,7 +142,7 @@
             margin-bottom: 10px;
             padding: 3px;
             font-weight: 600;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: white;
             border-radius: 6px;
             font-size: 18px;
@@ -161,7 +161,7 @@
             margin-bottom: 10px;
             padding: 3px;
             font-weight: 600;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: white;
             border-radius: 6px;
             font-size: 18px;
@@ -183,12 +183,12 @@
             align-items: center;
             justify-content: center;
             background: white;
-            color: #4b2404;
+            color: #2c2c2c;
             font-weight: bold;
             font-size: 0.9em;
             border-radius: 4px;
             padding: 2px 6px;
-            border: 2px solid #4b2404;
+            border: 2px solid #2c2c2c;
         }
 
         input[type="text"],
@@ -315,7 +315,7 @@
         }
 
         .calendar td.selected {
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: #fff;
         }
 
@@ -535,7 +535,7 @@
 
         .highlight-background {
             cursor: pointer;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             padding: 10px;
             border-radius: 6px;
             font-size: 18px;
@@ -574,7 +574,7 @@
         }
 
         .edit-button {
-            background-color: #ff6b6b;
+            background-color: #2c2c2c;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -590,7 +590,7 @@
         }
 
         .edit-button:hover {
-            background-color: #ff4f4f;
+            background-color: #2c2c2c;
         }
 
 
@@ -607,7 +607,7 @@
             padding: 12px;
             border: none;
             border-radius: 6px;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: #000000;
             font-size: 16px;
             cursor: pointer;
@@ -623,11 +623,11 @@
             width: 100%;
             padding: 15px;
             font-size: 18px;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
         }
 
         .submit-button:hover {
-            background-color: #4b2404;
+            background-color: #2c2c2c;
         }
 
         @media (max-width: 768px) {
@@ -676,7 +676,7 @@
             left: 50%;
             transform: translate(-50%, -10px);
             /* Y方向に上げる */
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: #fff;
             padding: 3px 12px;
             /* ボックスのパディングを縮小 */
@@ -737,7 +737,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: #e0fff8;
+            background-color: #97ac66;
             padding: 12px 16px;
             border-radius: 10px;
             font-size: 15px;
@@ -762,7 +762,7 @@
             font-size: 16px;
             font-weight: bold;
             padding: 12px 16px;
-            background-color: #4b2404;
+            background-color: #2c2c2c;
             color: #ffffff;
             border: 1px solid #c8e6c9;
             border-radius: 8px;
@@ -786,7 +786,7 @@
             align-items: center;
             justify-content: space-between;
             max-width: 100%;
-            background-color: #e0fff8;
+            background-color: #ececec;
             padding: 8px 12px;
             border-radius: 20px;
             font-size: 14px;
@@ -799,7 +799,7 @@
         }
 
         #selected-menus-display .menu-item:hover {
-            background-color: #e0fff8;
+            background-color: #ececec;
         }
 
         #selected-menus-display .menu-item span {
@@ -924,7 +924,7 @@
             line-height: 1.5;
             text-align: center;
             word-wrap: break-word;
-            background-color: #eef9f5;
+            background-color: #ececec;
             /* 青っぽい背景色を追加 */
             padding: 10px;
             border-radius: 4px;
@@ -1192,44 +1192,44 @@
 
         function updateDisplayInfo() {
             const name = document.getElementById('name').value;
-            const visitCountText = visitCount ? `<span style="color:#4b2404;"><strong>【年齢】</strong></span><br>・${visitCount}` : '・年齢が未選択です';
-            const selectedMenuText = selectedMenu ? `<span style="color:#4b2404;"><strong>【コース】</strong></span><br>・${selectedMenu}` : '・コースが未選択です';
+            const visitCountText = visitCount ? `<span style="color:#2c2c2c;"><strong>【年齢】</strong></span><br>・${visitCount}` : '・年齢が未選択です';
+            const selectedMenuText = selectedMenu ? `<span style="color:#2c2c2c;"><strong>【コース】</strong></span><br>・${selectedMenu}` : '・コースが未選択です';
 
             const selectedSymptomText = selectedSymptom.length > 0
-                ? `<span style="color:#4b2404;"><strong>【メニュー】</strong></span><br>・${selectedSymptom.map(item => `《${item.category}》${item.name}`).join('<br>・')}`
+                ? `<span style="color:#2c2c2c;"><strong>【メニュー】</strong></span><br>・${selectedSymptom.map(item => `《${item.category}》${item.name}`).join('<br>・')}`
                 : '・メニューが未選択です';
 
             const irradiationsText = irradiationsCount
-                ? `<span style="color:#4b2404;"><strong>【オプション】</strong></span><br>・${irradiationsCount.split(', ').join('<br>・')}`
+                ? `<span style="color:#2c2c2c;"><strong>【オプション】</strong></span><br>・${irradiationsCount.split(', ').join('<br>・')}`
                 : '・オプション無し';
 
             let totalMinutes = selectedMenuTime + selectedirradiationsTime + selectedVisitTime;
             let hours = Math.floor(totalMinutes / 60);
             let minutes = totalMinutes % 60;
-            let totalTimeText = `<span style="color:#4b2404;"><strong>【所要時間】</strong></span><br>・${hours > 0 ? hours + '時間' : ''}${minutes}分`;
+            let totalTimeText = `<span style="color:#2c2c2c;"><strong>【所要時間】</strong></span><br>・${hours > 0 ? hours + '時間' : ''}${minutes}分`;
 
-            const totalAmountText = `<span style="color:#4b2404;"><strong>【合計金額】</strong></span><br>・¥${menuPrice + optionsPrice}`;
+            const totalAmountText = `<span style="color:#2c2c2c;"><strong>【合計金額】</strong></span><br>・¥${menuPrice + optionsPrice}`;
             // 第1希望日が選択された場合の表示
             const selectedDate1 = document.getElementById('date1').value;
             const selectedDate1Text = selectedDate1
-                ? `・<span style="color:#4b2404;"><strong>第1希望日</strong></span>：${formatDateTime(selectedDate1)}`
+                ? `・<span style="color:#2c2c2c;"><strong>第1希望日</strong></span>：${formatDateTime(selectedDate1)}`
                 : '・第1希望日が未選択です';
 
             // 第2希望日が選択された場合の表示
             const selectedDate2 = document.getElementById('date2').value;
             const selectedDate2Text = selectedDate2
-                ? `・<span style="color:#4b2404;"><strong>第2希望日</strong></span>：${formatDateTime(selectedDate2)}`
+                ? `・<span style="color:#2c2c2c;"><strong>第2希望日</strong></span>：${formatDateTime(selectedDate2)}`
                 : '・第2希望日が未選択です';
 
             // 第3希望日が選択された場合の表示
             const selectedDate3 = document.getElementById('date3').value;
             const selectedDate3Text = selectedDate3
-                ? `・<span style="color:#4b2404;"><strong>第3希望日</strong></span>：${formatDateTime(selectedDate3)}`
+                ? `・<span style="color:#2c2c2c;"><strong>第3希望日</strong></span>：${formatDateTime(selectedDate3)}`
                 : '・第3希望日が未選択です';
             // 修正ボタン付きのHTMLを作成
             document.getElementById('displayInfo').innerHTML = `
         <div class="info-row">
-            <p><span style="color:#4b2404;"><strong>【お名前】</strong></span><br>・${name}</p>
+            <p><span style="color:#2c2c2c;"><strong>【お名前】</strong></span><br>・${name}</p>
             <button class="edit-button" onclick="scrollToElement('name')">修正する</button>
         </div>
         <hr>
