@@ -148,7 +148,7 @@
             font-size: 18px;
             text-align: center;
             /* 中央揃え */
-            text-indent: 20px;
+            text-indent: 0px;
             /* テキストを右に20pxずらす */
             position: relative;
             overflow: hidden;
@@ -1088,7 +1088,7 @@
         <div class="labelmessezi">メッセージ<br>（質問等お気軽にご記入ください）</div>
         <textarea id="message" rows="4" placeholder="メッセージを入力してください"></textarea>
 
-        <div class="label">ご予約内容</div>
+        <div class="labelmessezi">ご予約内容</div>
         <div id="displayInfo"></div> <!-- ここに選択された情報を表示します -->
 
         <button class="submit-button" onclick="submitForm()" div id="section-message">予約を行う</button>
@@ -1109,7 +1109,7 @@
 
         document.addEventListener('DOMContentLoaded', function () {
             liff.init({
-                liffId: '2005254357-zKma9BZk'
+                liffId: '2007841997-2pGr1A4e'
             }).then(() => {
                 console.log('LIFF初期化成功');
             }).catch((err) => {
